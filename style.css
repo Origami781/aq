@@ -1,0 +1,47 @@
+body{
+background-size:cover;
+background-position:center;
+}
+
+#ab{
+width:100%;
+padding:5px;  
+font-size:26px;  
+}
+
+#a{
+color:white;    
+}
+
+#b{
+    color:white;    
+    }
+
+    canvas{
+    border-color:rgb(255, 31, 31) ;
+    border-width:10px ;
+    border-style:solid ;   
+    margin-top:125px;
+    box-shadow: 10px 10px 15px rgb(149, 0, 0);
+    border-radius:20px;
+    animation: ani 3s infinite;
+    }
+
+
+    @keyframes ani{
+   0%{border-color:red; box-shadow: 10px 10px 15px rgb(149, 0, 0); border-radius:25px;}    
+   50%{border-color:rgb(200, 0, 100); box-shadow: 10px 10px 35px rgba(150, 0, 75, 0.537); border-radius:15px; } 
+   100%{border-color:red; box-shadow: 10px 10px 15px rgb(149, 0, 0); border-radius:25px} 
+}
+
+#cab{
+    font-size:25px;
+    border-color:rgb(255, 31, 31) ;
+    border-width:10px ;
+    border-style:solid ;   
+    box-shadow: 10px 10px 15px rgb(149, 0, 0);
+    border-radius:20px;
+    animation: ani 3s infinite;  
+    background-color:gold 
+}
+
